@@ -29,7 +29,7 @@ function countDown() {
 }
 
 function playSound(hit) {
-  let audio = new Audio(`/Detona-Ralph/src/audios/${hit}.m4a`);
+  let audio = new Audio(`./src/audios/${hit}.m4a`);
   audio.volume = 0.2;
   audio.play();
 }
